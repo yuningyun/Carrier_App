@@ -2,7 +2,13 @@
 
 # **new project 생성**
 
-https://placehold.it/150/ffffff/ff0000?text=hello
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 ![Untitled](https://user-images.githubusercontent.com/90883561/216004386-5e7b09f3-dd53-4822-b685-5d3a849c636e.png)
 
