@@ -2,6 +2,8 @@
 
 # **new project 생성**
 
+https://placehold.it/150/ffffff/ff0000?text=hello
+
 ![Untitled](https://user-images.githubusercontent.com/90883561/216004386-5e7b09f3-dd53-4822-b685-5d3a849c636e.png)
 
 ![Untitled (1)](https://user-images.githubusercontent.com/90883561/216004445-5652ec4f-3d47-48e8-b83d-3bc0db7b8405.png)
@@ -16,8 +18,7 @@
 
 ![Untitled (3)](https://user-images.githubusercontent.com/90883561/216004552-5c7757db-385a-4197-a17c-dbb7536332f8.png)
 
-
-[rgb(9, 105, 218)]위는 가장 주요하게 사용하는 두 파일이다.
+위는 가장 주요하게 사용하는 두 파일이다.
 
 - **.xml —> App의 겉모습. 즉 사용자가 보는 화면이다.**
 - **.kt —> 동작을 실행하기 위해 존재하는 파일이다.**
