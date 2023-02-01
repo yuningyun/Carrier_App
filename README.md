@@ -2,9 +2,9 @@
 
 # **new project 생성**
 
-<font color="red">This is some text!</font>
-<p style='color:red'>This is some red text.</p>
-These are <b style='color:red'>red words</b>.
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
 ![Untitled](https://user-images.githubusercontent.com/90883561/216004386-5e7b09f3-dd53-4822-b685-5d3a849c636e.png)
 
