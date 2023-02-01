@@ -64,9 +64,9 @@ no device에서 first phone으로 변경된 것을 볼 수 있다.
 
 이를 해결하기 위해 
 
-<span style="color: green"> sudo apt install qemu-kvm </span>
-<font color="blue"> sudo apt install qemu-kvm </font>
-
+```diff
+sudo apt install qemu-kvm
+```
 
 코드를 작성하여 설치를 진행한다.
 
@@ -78,16 +78,17 @@ no device에서 first phone으로 변경된 것을 볼 수 있다.
 
 ![Untitled (11)](https://user-images.githubusercontent.com/90883561/216004849-aadb75da-0364-49fd-8a28-9c478c20b1ef.png)
 ```diff
-ls -al /dev/kvm in blue
-```
+ls -al /dev/kvm
 
 grep kvm /etc/group
+```
 
 을 작성하여 사용자 등록이 되어 있는지 확인한다. 현재 상태에서 등록이 되어 있지 않으므로 사용자 등록을 진행해야한다.
-
+```diff
 sudo adduser $USER kvm
 
 sudo chown $USER /dev/kvm
+```
 
 명령어를 사용하여 등록을 진행하며 $USER 대신 yun을 입력하여 추가하여도 된다. 위 두 명령어 중 하나만 동작하여도 상관없다.
 
