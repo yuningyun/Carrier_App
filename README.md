@@ -2,13 +2,9 @@
 
 # **new project 생성**
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+<font color="red">This is some text!</font>
+<p style='color:red'>This is some red text.</p>
+These are <b style='color:red'>red words</b>.
 
 ![Untitled](https://user-images.githubusercontent.com/90883561/216004386-5e7b09f3-dd53-4822-b685-5d3a849c636e.png)
 
