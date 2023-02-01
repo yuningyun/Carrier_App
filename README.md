@@ -64,7 +64,9 @@ no device에서 first phone으로 변경된 것을 볼 수 있다.
 
 이를 해결하기 위해 
 
+<span style="color: green"> sudo apt install qemu-kvm </span>
 <font color="blue"> sudo apt install qemu-kvm </font>
+
 
 코드를 작성하여 설치를 진행한다.
 
@@ -75,8 +77,9 @@ no device에서 first phone으로 변경된 것을 볼 수 있다.
 설치 완료 후
 
 ![Untitled (11)](https://user-images.githubusercontent.com/90883561/216004849-aadb75da-0364-49fd-8a28-9c478c20b1ef.png)
-
-ls -al /dev/kvm
+```diff
+ls -al /dev/kvm in blue
+```
 
 grep kvm /etc/group
 
