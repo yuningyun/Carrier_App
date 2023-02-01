@@ -87,30 +87,32 @@ sudo adduser $USER kvm
 sudo chown $USER /dev/kvm
 
 명령어를 사용하여 등록을 진행하며 $USER 대신 yun을 입력하여 추가하여도 된다. 위 두 명령어 중 하나만 동작하여도 상관없다.
+
 ![Untitled (12)](https://user-images.githubusercontent.com/90883561/216004900-4aeaf720-8a93-43d4-9a37-6d5c0954dc41.png)
 
 ![Untitled (13)](https://user-images.githubusercontent.com/90883561/216004938-bb7c1548-760f-43fc-a89b-bab59e485df7.png)
 
 
 위 코드가 동작했을 때 다음과 같이 변경되는 것을 확인 할 수 있다.
+
 ![Untitled (14)](https://user-images.githubusercontent.com/90883561/216004982-3371c383-51eb-405d-9755-9abd2d28ddba.png)
 
 
 추가 후 어떤한 에러코드도 등장하지 않는 것을 확인할 수 있었으며 생성도 잘 되고 실행이 되는 것을 볼 수 있다.
+
 ![Untitled (15)](https://user-images.githubusercontent.com/90883561/216005035-ed17f93b-3a38-40cc-a2fe-ecf6e8216437.png)
 
 ![Untitled (16)](https://user-images.githubusercontent.com/90883561/216005076-18a91319-0524-43a6-995f-abd187a8f62a.png)
 
 
 어떻게 해서 생성하는 것까지는 완료하였다. 하지만 원래 앱이 나타나야하는데 나타나지 않고 계속해서 오류를 발생시키는 문구가 등장하였다.
+
 ![Untitled (17)](https://user-images.githubusercontent.com/90883561/216005108-f1d79c30-dc49-47f8-bdde-002f7a5ddc05.png)
-
-
-[오류문구 전체 내용](https://www.notion.so/e476424d875e474e980eb1826fda8f45)
 
 [오류문구 전체 내용](https://github.com/yuningyun/Carrier_App/blob/89b39b707756914b30a909453bd208301f714e62/Error%20All%20text1)
 
 다른 에러가 다시 발생하였다. 그것은 build.gradle(:app)에 찾아 들어가서 compleSdk 와 targetSdk가 32로 적혀져 있었는데 돌아가기 위해서는 33으로 변경해주어야 한다.
+
 ![Untitled (18)](https://user-images.githubusercontent.com/90883561/216005155-ed63ddc5-79ed-45e2-8a8b-23d0f65c0705.png)
 
 
