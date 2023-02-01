@@ -108,6 +108,8 @@ sudo chown $USER /dev/kvm
 
 [오류문구 전체 내용](https://www.notion.so/e476424d875e474e980eb1826fda8f45)
 
+[오류문구 전체 내용](https://github.com/yuningyun/Carrier_App/blob/89b39b707756914b30a909453bd208301f714e62/Error%20All%20text1)
+
 다른 에러가 다시 발생하였다. 그것은 build.gradle(:app)에 찾아 들어가서 compleSdk 와 targetSdk가 32로 적혀져 있었는데 돌아가기 위해서는 33으로 변경해주어야 한다.
 ![Untitled (18)](https://user-images.githubusercontent.com/90883561/216005155-ed63ddc5-79ed-45e2-8a8b-23d0f65c0705.png)
 
