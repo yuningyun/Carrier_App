@@ -1,8 +1,10 @@
 # Android Studio Start
 
-## **new project 생성**
-## 프로젝트 생성 후
-## 에러 발생
+목차
+
+1. [프로젝트 생성](**new project 생후**)
+2. [프로젝트 생성 후](프로젝트 생성 후)
+3. [에러 발생](에러 발생)
 
 
 # **new project 생성**
