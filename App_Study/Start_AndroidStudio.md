@@ -7,7 +7,7 @@
 3. [에러 발생](#에러-발생)
 
 
-## **new project 생성**
+# **new project 생성**
 
 ![Untitled](https://user-images.githubusercontent.com/90883561/216004386-5e7b09f3-dd53-4822-b685-5d3a849c636e.png)
 
@@ -19,7 +19,7 @@
 ![Untitled (2)](https://user-images.githubusercontent.com/90883561/216004509-d4bf2cda-ffcc-456a-9761-ab8f86279153.png)
 
 
-## 프로젝트 생성 후
+# 프로젝트 생성 후
 
 ![Untitled (3)](https://user-images.githubusercontent.com/90883561/216004552-5c7757db-385a-4197-a17c-dbb7536332f8.png)
 
@@ -59,7 +59,7 @@
 
 no device에서 first phone으로 변경된 것을 볼 수 있다.
 
-## 에러 발생
+# 에러 발생
 
 ![Untitled (9)](https://user-images.githubusercontent.com/90883561/216004755-dad07f5d-325b-4178-9686-0e91b41e1b96.png)
 
