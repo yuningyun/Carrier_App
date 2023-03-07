@@ -87,7 +87,29 @@ source ~/.bashrc
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
 
+workspace 생성
+
+```
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+catkin_make
+```
+
+Package 정보 얻기. 패키지 경로 반환 받는 법
+```
+rospack find [패키지 이름]
+```
+
+예를 들어
+```
+rospack find roscpp
+```
+
+
+
 # Create Ros Package
+
+
 
 # Building Ros Package
 
