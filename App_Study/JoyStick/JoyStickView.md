@@ -84,6 +84,8 @@ setStrokeWidth(float width) 로 Paint의 굵기를 설정한다.
 
 앤티앨리어싱을 활성화하는 페인트 플래그이다. 앤티앨리어싱은 네모난 픽셀로 이로어진 곡선, 원형 등의 이미지가 매끄럽지 못하게 보이는 것을 부드럽게 만들어 준다.
 
+![Screenshot from 2023-03-14 21-48-37](https://user-images.githubusercontent.com/90883561/225013996-aeaffacd-59f8-4cb0-913d-191c063e7e20.png)
+
 
 ## onDraw (화면에 그리기)
 
