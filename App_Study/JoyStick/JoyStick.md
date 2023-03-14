@@ -29,12 +29,12 @@ git clone https://github.com/alvesoaj/JoystickView.git
 git clone 부분을 제외한 나머지 부분은 project를 하나의 모듈로 등록하는 부분이기에 만들어둔 project를 그대로 사용하고 싶을 때 같은 방법으로 모듈로 등록하여 사용하면 될 것으로 보인다.
 
 
-'''
+```
 <com.zerokol.views.joystickView.JoystickView
         android:id="@+id/joystickView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-'''
+```
 
 git에 있는 설명에 따라 진행해보면 joystick의 화면과 작동을 확인할 수 있다.
 
