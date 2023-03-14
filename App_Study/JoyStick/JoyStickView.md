@@ -2,12 +2,11 @@
 
 1. 페이지 세팅
 
-'''
-<com.zerokol.views.joystickView.JoystickView
-        android:id="@+id/joystickView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-'''
+    <com.zerokol.views.joystickView.JoystickView
+            android:id="@+id/joystickView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
 
 위 부분을 activity_main에 추가하였다. 이 부분은 JoystickView에 있는 JoyStickView를 표현하는 부분을 들고 온 것이다.
 
