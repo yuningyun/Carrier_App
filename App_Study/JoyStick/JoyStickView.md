@@ -51,11 +51,11 @@ Color.RED, Color.WHITE, Color.GREEN, Color.BLACK
 
 Android Studio에서는 색상을 지정할 때 Color.rgb(int red, int green, int blue)를 사용하여 원하는 색상으로 변경할 수 있다는 것을 확인하고 Hex코드를 Int로 변환하여 색상을 변경하였다.
 
-'''
-Color.rgb(186, 215, 233)
-Color.rgb(235, 69, 95)
-Color.rgb(43, 52, 103)
-'''
+
+    Color.rgb(186, 215, 233)
+    Color.rgb(235, 69, 95)
+    Color.rgb(43, 52, 103)
+
 
 다음의 코드를 사용하여 색상을 변경하였다.
 
