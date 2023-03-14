@@ -13,7 +13,7 @@
 
 ### initJoystickView (색깔 지정 및 스타일 지정)
 
-'''
+
 
     protected void initJoystickView() {
         mainCircle = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -38,7 +38,6 @@
         button.setStyle(Paint.Style.FILL);
     }
 
-'''
 
 initJoystickView의 전제 코드.
 
@@ -55,9 +54,7 @@ Android Studio에서는 색상을 지정할 때 Color.rgb(int red, int green, in
 '''
 
 Color.rgb(186, 215, 233)
-
 Color.rgb(235, 69, 95)
-
 Color.rgb(43, 52, 103)
 
 '''
