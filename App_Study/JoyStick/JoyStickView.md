@@ -123,3 +123,5 @@ canvas에 원을 그린다는 의미로 중심 좌표 x, y와 반지름을 넣�
 canvas.drawLine((float) centerX, (float) centerY, (float) centerX, (float) (centerY - joystickRadius), verticalLine);
 
 Line을 그리는 것은 시작점과 끝점, Paint정보를 작성하면 된다.
+
+![Screenshot from 2023-03-14 21-33-32](https://user-images.githubusercontent.com/90883561/225013865-d5e2277b-734d-4c27-a1c9-ad78fdde30e1.png)
