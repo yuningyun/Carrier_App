@@ -36,6 +36,6 @@ git clone 부분을 제외한 나머지 부분은 project를 하나의 모듈로
         android:layout_height="wrap_content" />
 '''
 
-위 코드를 activity_main.xml에 추가하면 joystick이 화면에 나타나는 것을 확인 할 수 있다.
+git에 있는 설명에 따라 진행해보면 joystick의 화면과 작동을 확인할 수 있다.
 
 조이스틱에 함수를 적절하게 사용하고 활용을 하기 위해 코드 분석을 진행하였다.
