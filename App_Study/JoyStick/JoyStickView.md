@@ -2,11 +2,12 @@
 
 1. 페이지 세팅
 
-    <com.zerokol.views.joystickView.JoystickView
-            android:id="@+id/joystickView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
+```
+<com.zerokol.views.joystickView.JoystickView
+    android:id="@+id/joystickView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+```
 
 위 부분을 activity_main에 추가하였다. 이 부분은 JoystickView에 있는 JoyStickView를 표현하는 부분을 들고 온 것이다.
 
@@ -82,3 +83,43 @@ setStrokeWidth(float width) 로 Paint의 굵기를 설정한다.
 ### ANTI_ALIAS_FLAG
 
 앤티앨리어싱을 활성화하는 페인트 플래그이다. 앤티앨리어싱은 네모난 픽셀로 이로어진 곡선, 원형 등의 이미지가 매끄럽지 못하게 보이는 것을 부드럽게 만들어 준다.
+
+
+## onDraw (화면에 그리기)
+
+
+
+    protected void onDraw(Canvas canvas) {
+        // super.onDraw(canvas);
+        centerX = (getWidth()) / 2;
+        centerY = (getHeight()) / 2;
+
+        // painting the main circle
+        canvas.drawCircle((int) centerX, (int) centerY, joystickRadius,
+                mainCircle);
+        // painting the secondary circle
+        canvas.drawCircle((int) centerX, (int) centerY, joystickRadius / 2,
+                secondaryCircle);
+        // paint lines
+        canvas.drawLine((float) centerX, (float) centerY, (float) centerX,
+                (float) (centerY - joystickRadius), verticalLine);
+        canvas.drawLine((float) (centerX - joystickRadius), (float) centerY,
+                (float) (centerX + joystickRadius), (float) centerY,
+                horizontalLine);
+        canvas.drawLine((float) centerX, (float) (centerY + joystickRadius),
+                (float) centerX, (float) centerY, horizontalLine);
+
+        // painting the move button
+        canvas.drawCircle(xPosition, yPosition, buttonRadius, button);
+    }
+
+### 1. canvas에서 가로와 세로를 구한 후 X, Y의 중앙 지점을 잡는다.
+### 2. initJoystickView에서 지정해놓은 Paint를 이용하여 화면을 그린다.
+
+canvas.drawCircle((int) centerX, (int) centerY, joystickRadius, mainCircle);
+
+canvas에 원을 그린다는 의미로 중심 좌표 x, y와 반지름을 넣고, Paint정보를 넣는다.
+
+canvas.drawLine((float) centerX, (float) centerY, (float) centerX, (float) (centerY - joystickRadius), verticalLine);
+
+Line을 그리는 것은 시작점과 끝점, Paint정보를 작성하면 된다.
