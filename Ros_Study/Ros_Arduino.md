@@ -41,7 +41,11 @@ rostopic pub {topic-name} {msg-type} {data}
 ```
 
 ros 실행에서 _band를 57600으로 설정하였기 때문에 monitor_speed를 57600으로 설정해야 ros와 arduino의 통신이 가능하다.
-이렇게 하지 않고 monitor_speed = 9600을 작성한다면  [ERROR] [1679396127.626042]: Lost sync with device, restarting…
+이렇게 하지 않고 monitor_speed = 9600을 작성한다면  
+
+[ERROR] [1679396127.626042]: Lost sync with device, restarting…
+
+
 를 발생시키며 통신이 끊겨 다른 것을 못하게 된다.
 이를 주의하여 _band를 57600으로 잘 작성하여야 한다.
 
