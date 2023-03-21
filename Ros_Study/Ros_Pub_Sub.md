@@ -149,3 +149,23 @@ target_link_libraries(${PROJECT_NAME}_node
 
 4. 메시지 파일 작성
 새로운 메시지 파일(.msg)를 만들고 이를 사용해 노드를 이용한 통신을 한다. 
+- 패키지 폴더 내 msg폴더(~/test_pkg/msg) 생성
+- 텍스트 편집기 혹은 VS Code 등을 열어 아래 내용 입력
+
+```
+time stamp
+int32 data
+```
+
+- msg 폴더에 메시지 파일 `test_msg.msg`로 저장, 확장자 .msg까지 입력
+
+```
+❗️ 메시지 타입의 대표적 예
+메시지 기본 타입: time, int32, bool, int8, int16, float32, string, duration 등
+ROS 사용 빈도 많은 메시지를 모아둔 타입: common_msgs 등
+```
+
+5. 소스 코드 작성
+토픽을 송신하는 Publisher(퍼블리셔)노드와 토픽을 수신하는 Subscribe(서브스크라이브)노드를 각각 만든다.
+
+python으로 제어를 할 예정으로 
