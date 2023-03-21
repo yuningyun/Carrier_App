@@ -77,6 +77,10 @@ lib_deps =
 	openagriculturefoundation/rosserial_arduino@0.0.0-alpha+sha.1834b766b0
 ```
 
+
+![Screenshot from 2023-03-21 20-51-30](https://user-images.githubusercontent.com/90883561/226619783-9cc44612-37b3-4540-8fd1-560ad5a649fd.png)
+
+
 아두이노 코드 작성
 
 ```
@@ -127,3 +131,25 @@ void loop()
   delay(1);
 }
 ```
+
+rosserial 실행
+
+![Screenshot from 2023-03-21 20-51-18](https://user-images.githubusercontent.com/90883561/226620501-d694b8d5-1164-424b-b065-ae31443fdde2.png)
+
+
+topic graph 확인 방법
+![Screenshot from 2023-03-21 20-54-56](https://user-images.githubusercontent.com/90883561/226620034-cd929398-5372-4341-b8c7-c62cd7125843.png)
+
+
+![Screenshot from 2023-03-21 20-54-40](https://user-images.githubusercontent.com/90883561/226619506-db2cce20-9ecb-4f55-8ec0-41fe27d54334.png)
+
+
+![Screenshot from 2023-03-21 20-55-10](https://user-images.githubusercontent.com/90883561/226619591-70c6edb7-35c7-44ab-8e17-2a1e2090f268.png)
+
+rostopic echo /talk
+
+![Screenshot from 2023-03-21 20-55-33](https://user-images.githubusercontent.com/90883561/226620165-dd09ea3d-444a-4dfc-a69d-7230c1df105e.png)
+
+rostopic echo /chatter
+
+![Screenshot from 2023-03-21 20-55-23](https://user-images.githubusercontent.com/90883561/226620194-0c24d6a7-00f2-47d0-a5e2-7192273fe979.png)
